@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="background" style="background-image: url('https://images.unsplash.com/photo-1623874514711-0f321325f318?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+    <div class="content">
+        <h1>About Us</h1>
+        <p>We are dedicated to helping you achieve your fitness goals with the best facilities and trainers.</p>
+        <h2>Our Team:</h2>
+        <ul>
+            {% for member in team %}
+            <li>{{ member }}</li>
+            {% endfor %}
+        </ul>
+        <h2>Our Facilities:</h2>
+        <ul>
+            {% for facility in facilities %}
+            <li>{{ facility }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}
+
