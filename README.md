@@ -21,7 +21,7 @@ Flask (pip install flask)
 2. Steps to Run
 Clone the repository:
 
-git clone https://github.com/yourusername/gym-management-system.git
+git clone https://github.com/suhaimakhan07/gym-management-system.git
 cd gym-management-system
 Create and activate a virtual environment:
 
