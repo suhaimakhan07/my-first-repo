@@ -49,5 +49,4 @@ gym-management-system/
 ├── static/
 │   └── style.css          # Styling for the application
 └── README.md              # Project documentation
-License
-This project is licensed under the MIT License.
+
